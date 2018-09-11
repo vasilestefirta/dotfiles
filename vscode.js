@@ -38,7 +38,6 @@
     "editor.lineHeight": 25,
     "editor.letterSpacing": 0.5,
     "files.trimTrailingWhitespace": true,
-    "editor.fontWeight": "400",
     "editor.cursorStyle": "line",
     "editor.cursorWidth": 5,
     "editor.cursorBlinking": "blink",
