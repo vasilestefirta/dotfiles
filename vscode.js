@@ -14,24 +14,19 @@
                     }
                 },
                 {
-                    "scope": [
-                        "meta.object-literal.key"
-                    ],
+                    "scope": ["meta.object-literal.key"],
                     "settings": {
                         "foreground": "#9EFFFF"
                     }
                 },
                 {
-                    "scope": [
-                        "support",
-                        "support.function"
-                    ],
+                    "scope": ["support", "support.function"],
                     "settings": {
                         "foreground": "#80FFBB"
                     }
                 }
             ]
-        },
+        }
     },
     "editor.fontFamily": "'SourceCodePro-Light', Menlo, Monaco, 'Courier New', monospace",
     "editor.fontSize": 15,
@@ -46,11 +41,17 @@
     "editor.tabSize": 4,
     "search.useIgnoreFiles": false,
     "php.suggest.basic": false,
-    "phpcs.ignorePatterns": [
-        "*/vendor/*"
-    ],
+    "phpcs.ignorePatterns": ["*/vendor/*"],
     "phpcs.standard": "PSR2",
     "php-cs-fixer.rules": "@PSR2",
     "php-cs-fixer.onsave": true,
-    "workbench.iconTheme": "eq-material-theme-icons-palenight"
+    "workbench.iconTheme": "eq-material-theme-icons-palenight",
+    "eslint.autoFixOnSave": true,
+    "eslint.alwaysShowStatus": true,
+    "editor.formatOnSave": true,
+    "prettier.tabWidth": 4,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "es5",
+    "prettier.bracketSpacing": true,
+    "prettier.useTabs": false
 }
