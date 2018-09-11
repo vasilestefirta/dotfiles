@@ -53,5 +53,6 @@
     "prettier.singleQuote": true,
     "prettier.trailingComma": "es5",
     "prettier.bracketSpacing": true,
-    "prettier.useTabs": false
+    "prettier.useTabs": false,
+    "emmet.triggerExpansionOnTab": true
 }
