@@ -1,4 +1,5 @@
 {
+    "workbench.startupEditor": "none",
     "workbench.colorTheme": "Material Theme Palenight High Contrast",
     "editor.tokenColorCustomizations": {
         "[Material Theme Palenight High Contrast]": {
