@@ -5,11 +5,7 @@
         "[Material Theme Palenight High Contrast]": {
             "textMateRules": [
                 {
-                    "scope": [
-                        "variable",
-                        "variable.parameter",
-                        "variable.function"
-                    ],
+                    "scope": ["variable", "variable.parameter", "variable.function"],
                     "settings": {
                         "foreground": "#F1F1F1"
                     }
@@ -49,11 +45,14 @@
     "workbench.iconTheme": "eq-material-theme-icons-palenight",
     "eslint.autoFixOnSave": true,
     "eslint.alwaysShowStatus": true,
+    "eslint.validate": ["javascript", "javascriptreact", "vue"],
     "editor.formatOnSave": true,
+    "prettier.printWidth": 100,
     "prettier.tabWidth": 4,
     "prettier.singleQuote": true,
     "prettier.trailingComma": "es5",
     "prettier.bracketSpacing": true,
     "prettier.useTabs": false,
+    "prettier.disableLanguages": ["vue"],
     "emmet.triggerExpansionOnTab": true
 }
