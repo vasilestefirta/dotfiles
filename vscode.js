@@ -1,6 +1,7 @@
 {
     "workbench.startupEditor": "none",
     "workbench.colorTheme": "Material Theme Palenight High Contrast",
+    "workbench.editor.highlightModifiedTabs": true,
     "editor.tokenColorCustomizations": {
         "[Material Theme Palenight High Contrast]": {
             "textMateRules": [
@@ -36,6 +37,7 @@
     "editor.renderWhitespace": "all",
     "editor.insertSpaces": true,
     "editor.tabSize": 4,
+    "terminal.integrated.fontSize": 14,
     "search.useIgnoreFiles": false,
     "php.suggest.basic": false,
     "phpcs.ignorePatterns": ["*/vendor/*"],
@@ -54,5 +56,10 @@
     "prettier.bracketSpacing": true,
     "prettier.useTabs": false,
     "prettier.disableLanguages": ["vue"],
-    "emmet.triggerExpansionOnTab": true
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "breadcrumbs.enabled": true,
+    "workbench.editor.labelFormat": "medium"
 }
