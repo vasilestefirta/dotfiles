@@ -61,5 +61,8 @@
         "javascript": "javascriptreact"
     },
     "breadcrumbs.enabled": true,
-    "workbench.editor.labelFormat": "medium"
+    "workbench.editor.labelFormat": "medium",
+    "files.associations": {
+        "*.json": "jsonc"
+    }
 }
