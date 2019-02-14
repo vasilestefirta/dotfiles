@@ -44,7 +44,6 @@
     "phpcs.standard": "PSR2",
     "php-cs-fixer.rules": "@PSR2",
     "php-cs-fixer.onsave": true,
-    "workbench.iconTheme": "eq-material-theme-icons-palenight",
     "eslint.autoFixOnSave": true,
     "eslint.alwaysShowStatus": true,
     "eslint.validate": ["javascript", "javascriptreact", "vue"],
